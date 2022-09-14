@@ -1,0 +1,19 @@
+:host {
+    display: block;
+    margin: var(--feed-item-margin);
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+
+    &.first {
+        align-items: center;
+
+        .author-avatar img {
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+    }
+}

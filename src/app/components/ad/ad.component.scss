@@ -1,0 +1,43 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: var(--feed-item-margin);
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.image {
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #000;
+}
+
+.ad-chip {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 14px;
+    background-color: rgb(255, 221, 0);
+    color: #000;
+}
+
+.ad-redirect-button {
+    width: fit-content;
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+    padding: 7px 15px;
+    font-size: 16px;
+    background-color: rgb(0, 66, 208);
+    outline: none;
+    border: none;
+}

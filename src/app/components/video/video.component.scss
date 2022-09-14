@@ -1,0 +1,34 @@
+:host {
+    display: block;
+    margin: var(--feed-item-margin);
+}
+
+.row {
+    display: flex;
+
+    &.second {
+        margin-top: 15px;
+        align-items: center;
+
+        .author-avatar img {
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 25px;
+        }
+    }
+
+    &.third {
+        margin-top: 5px;
+        color: #a9a9a9;
+
+        .author-name {
+            font-weight: bold;
+            padding-right: 5px;
+            border-right: solid 1px rgba(255, 255, 255, 0.3);
+        }
+
+        .duration {
+            margin-left: 5px;
+        }
+    }
+}

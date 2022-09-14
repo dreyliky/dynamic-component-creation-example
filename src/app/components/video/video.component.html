@@ -1,0 +1,23 @@
+<div class="row first">
+    <img [src]="data.previewUrl" />
+</div>
+
+<div class="row second">
+    <div class="author-avatar">
+        <img [src]="data.author.avatarUrl" />
+    </div>
+
+    <div class="title">
+        {{ data.title }}
+    </div>
+</div>
+
+<div class="row third">
+    <div class="author-name">
+        {{ data.author.name }}
+    </div>
+
+    <div class="duration">
+        {{ data.duration }}
+    </div>
+</div>
